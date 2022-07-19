@@ -230,3 +230,48 @@ footer .container hr {
     border-color: #FFFFFF;
     opacity: 10%;
 }
+
+
+
+
+
+/* --------------------- 
+upcoming page
+-------------------- */
+.blog-section .right-column .team {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog-section .right-column .team img {
+    object-fit: cover;
+    height: 55px;
+    width: 90px;
+    border-radius: unset;
+}
+
+.blog-section .right-column .content {
+    border: 1px solid #00000038;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.blog-section .right-column .content .team span {
+    font-size: 16px;
+    font-weight: 700;
+    color: #161616;
+}
+
+.blog-section .right-column .content h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #161616;
+}
+
+.blog-section .right-column .content p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4D4D4D;
+}
