@@ -1,7 +1,189 @@
+/*----------- Golobal css -----------*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
+}
+
+.container {
+    max-width: 1420px;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+
+
+/*----------- slider-section ----------*/
+.slider-section {
+    background-color: #161616;
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+.slider-section .text-column {
+    width: 47.5%;
+    margin-right: 5%;
+    padding: 90px 0 90px 90px;
+}
+
+.slider-section .text-column h1 {
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 80px;
+
+}
+
+.slider-section .text-column p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.slider-section .text-column .slider-btn {
+    padding: 12px 35px;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #FF8278;
+    color: #fff;
+    border: 2px solid #FF8278;
+    border-radius: 5px;
+    transition: .4s;
+    font-family: 'Raleway', sans-serif;
+}
+
+.slider-section .text-column .slider-btn i {
+    margin-left: 8px;
+}
+
+.slider-section .text-column .slider-btn:hover {
+    background-color: transparent;
+    color: #FF8278;
+    border: 2px solid #FF8278;
+}
+
+.slider-section .image-column {
+    width: 47.5%;
+    padding: 30px 70px 0 0;
+}
+
+.slider-section .image-column img {
+    width: 100%;
+    display: block;
+}
+
+
+
+
+/* ------- blog section ------- */
+.blog-section .left-column {
+    width: 300px;
+}
+
+.blog-section .right-column {
+    width: 100%;
+    margin-left: 30px;
+}
+
+.blog-section .left-column ul {
+    margin: 0;
+    padding: 0;
+}
+
+.blog-section .left-column .nav-bar {
+    background-color: #161616;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.blog-section .left-column .nav-bar ul li {
+    list-style: none;
+    background-color: #fff;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+.blog-section .left-column .nav-bar ul li:last-child {
+    margin-bottom: 0;
+}
+
+.blog-section .left-column ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #161616;
+}
+
+.blog-section .left-column #active {
+    background-color: #FF8278;
+}
+
+.blog-section .left-column #active a {
+    color: #fff;
+}
+
+.blog-section .row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+}
+
+.blog-section .right-column article {
+    border: 1px solid #00000038;
+    border-radius: 10px;
+}
+
+.blog-section .right-column .article-text {
+    padding: 20px;
+}
+
+.blog-section .right-column img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.blog-section .right-column article button {
+    padding: 7px 18px;
+    background: transparent;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+
+.blog-section .right-column article h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #161616;
+}
+
+.blog-section .right-column article .icon {
+    display: flex;
+}
+
+.blog-section .right-column article .fa-regular {
+    margin-right: 5px;
+}
+
+.blog-section .right-column article .time {
+    margin-right: 40px;
 }
