@@ -262,6 +262,43 @@ footer .container hr {
 
 
 
+/* --------- social ------------ */
+.social {
+    margin-top: 70px;
+
+}
+
+.social ul li i {
+    color: #fff;
+    font-size: 30px;
+    background-color: #FF8278;
+    border: 1px solid #FF8278;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    transition: .4s;
+}
+
+.social ul li i:hover {
+    color: #FF8278;
+    font-size: 30px;
+    background-color: transparent;
+    transform: rotate(45deg);
+}
+
+
+
+
+
+
+
+
+
+
 
 /* --------------------- 
 upcoming page
@@ -306,6 +343,11 @@ upcoming page
 
 
 
+
+
+
+
+/*------------------ Responsive -------------------*/
 
 @media only screen and (max-width: 1200px) {
     .slider-section .text-column {
@@ -387,6 +429,9 @@ upcoming page
     .blog-section .left-column .nav-bar ul li {
         background-color: transparent;
         border: 1px solid #00000038;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .blog-section .left-column ul li a {
@@ -438,4 +483,105 @@ upcoming page
         padding-bottom: 60px;
     }
 
+}
+
+@media only screen and (max-width: 989px) {
+    .slider-section .text-column {
+        padding: 40px 0 40px 40px;
+    }
+
+    .slider-section .text-column h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .slider-section .text-column .md-text {
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+
+    footer .container ul li {
+        padding: 0 15px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .slider-section {
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slider-section .image-column {
+        padding: 0;
+        padding-top: 30px;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .slider-section .text-column {
+        padding: 30px 20px 0 20px;
+        text-align: center;
+        margin: 0;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .blog-section .left-column ul {
+        display: flex;
+        flex-direction: column;
+        display: inline-block;
+    }
+
+    .blog-section .left-column .nav-bar {
+        text-align: center;
+    }
+
+    .blog-section .left-column .nav-bar ul li {
+        margin-bottom: 15px;
+    }
+
+    .blog-section .main {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
+
+    footer .container {
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    footer .container ul li {
+        display: block;
+        padding: 0;
+        margin-bottom: 25px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 520px) {
+    .slider-section .text-column h1 {
+        padding: 0 15px;
+    }
+
+    .slider-section .text-column .md-text {
+        padding: 0 20px;
+    }
+
+    .slider-section .image-column {
+        width: 75%;
+    }
 }
