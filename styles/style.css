@@ -584,4 +584,8 @@ upcoming page
     .slider-section .image-column {
         width: 75%;
     }
+
+    .blog-section .right-column .button {
+        display: none;
+    }
 }
